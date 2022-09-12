@@ -44,4 +44,12 @@ public class IntroLabTest {
         String actual = IntroLab.liusiq25();
         assertEquals(expected, actual);
     }
+
+    @Test(timeout = 10)
+    public void testHuangri9() {
+        String expected = "Hello! My name is Rick Huang! I like cats more "+
+                "than dogs! Nice to see you!";
+        String actual = IntroLab.huangri9();
+        assertEquals(expected, actual);
+    }
 }
