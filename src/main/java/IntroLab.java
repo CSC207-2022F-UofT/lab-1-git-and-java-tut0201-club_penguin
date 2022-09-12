@@ -48,6 +48,9 @@ public class IntroLab {
         return printLabMessage("Hello!", "Siqi Liu", true, "My cat's name is Mocha!");
     }
 
+    public static String huangri9() {
+        return printLabMessage("Hello", "Rick Huang", true, "Nice to see you");
+    }
     /**
      * An example method that calls on printLabMessage.
      */
@@ -68,6 +71,7 @@ public class IntroLab {
          */
         System.out.println(justin());
         System.out.println(liusiq25());
+        System.out.println(huangri9());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
