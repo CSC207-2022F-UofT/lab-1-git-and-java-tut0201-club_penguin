@@ -40,6 +40,9 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String huangri9(){
+        return printLabMessage("Hello", "Rick Huang", true, "My cat's name is Rick!");
+    }
     public static String liusiq25() {
         return printLabMessage("Hello!", "Siqi Liu", true, "My cat's name is Mocha!");
     }
@@ -63,6 +66,7 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
         System.out.println(liusiq25());
+        System.out.println(huangri9());
 
 
     }
