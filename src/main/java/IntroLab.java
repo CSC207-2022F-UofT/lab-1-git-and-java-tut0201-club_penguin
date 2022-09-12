@@ -21,7 +21,7 @@ public class IntroLab {
      * @return A message using the given parameters.
      */
     public static String printLabMessage(String greeting, String name,
-                                  boolean likes_cats, String message) {
+                                         boolean likes_cats, String message) {
         String message_to_print = greeting + "! My name is " + name + "! ";
 
         if (likes_cats) {
@@ -40,6 +40,10 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String justin() {
+        return printLabMessage("Hi", "Justin", false, "You are cool!");
+    }
+
     public static String liusiq25() {
         return printLabMessage("Hello!", "Siqi Liu", true, "My cat's name is Mocha!");
     }
@@ -62,9 +66,8 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(justin());
         System.out.println(liusiq25());
-
-
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
